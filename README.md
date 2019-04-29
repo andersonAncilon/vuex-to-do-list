@@ -1,29 +1,13 @@
-# vuex-to-do-list
+## A basic to do list example, builded with VueJS, VueX and Boostrap.
 
-## Project setup
-```
-yarn install
-```
+### Current features:
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+1. Insert a task;
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### Future features:
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Edit a task;
+2. Categorize tasks with tags;
+3. To separate checked and unchecked tasks;
+4. Check a task;
+5. Remove a task;
