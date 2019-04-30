@@ -30,8 +30,13 @@ export default {
     ...mapMutations(["setTask"]),
     handleTask() {
       let id = Math.random().toFixed(8);
-      this.task = { id: id, content: this.taskContent, status: false };
-      this.$store.commit("setTask", this.task);
+      if (this.taskContent !== "") {
+        this.task = { id: id, content: this.taskContent, status: false };
+        this.$store.commit("setTask", this.task);
+        this.taskContent = "";
+      } else {
+        alert("Plese, type something");
+      }
     }
   }
 };
